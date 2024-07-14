@@ -18,9 +18,5 @@ Box Model Mastery:
 Properly using margin, padding, and border to achieve a balanced design was a learning experience.
 Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure your code follows the existing style and passes any tests.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 Contact
 Created by Yusuf Adebayo - feel free to contact me!
