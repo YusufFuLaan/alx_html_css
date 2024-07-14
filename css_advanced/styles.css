@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url('images/hero-image.png');
+    background-size: 100% 100%;
+    width: 1440px;
+height: 1093px;
+gap: 0px;
+opacity: 0px;
+
+}
