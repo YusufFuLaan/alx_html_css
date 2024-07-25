@@ -108,7 +108,6 @@ a {
   margin-top: 100px;
 }
 .sec4 {
-  position: relative;
   margin-bottom: 5%;
 }
 .sec4-heading {
@@ -126,8 +125,13 @@ a {
 .sec4-content-container {
   width: 60%;
 }
+.shege{
+}
 .sec4-content-title {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+.sec4-content-subtitle{
+    margin-bottom: 40px;
 }
 footer {
   position: relative;
