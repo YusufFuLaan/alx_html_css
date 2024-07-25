@@ -71,8 +71,8 @@ a {
   color: brown;
   margin-bottom: 50px;
 }
-#popular{
-    color: purple;
+#popular {
+  color: purple;
 }
 .sec2 {
   display: flex;
@@ -89,9 +89,9 @@ a {
   align-items: center;
 }
 .sec3 {
-    height: 350px;
+  height: 350px;
   text-align: center;
-  background-color:rgb(2, 2, 60);
+  background-color: rgb(2, 2, 60);
   color: white;
   padding-top: 60px;
   margin-bottom: 5%;
@@ -108,14 +108,26 @@ a {
   margin-top: 100px;
 }
 .sec4 {
+  position: relative;
   margin-bottom: 5%;
 }
-.faq {
+.sec4-heading {
   text-align: center;
   margin-bottom: 30px;
 }
 .sec4-container {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  left: 200px;
+  width: 80%;
+}
+.sec4-content-container {
+  width: 60%;
+}
+.sec4-content-title {
+  margin-bottom: 30px;
 }
 footer {
   position: relative;
