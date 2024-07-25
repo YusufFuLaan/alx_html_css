@@ -3,8 +3,8 @@
   padding: 0;
 }
 @font-face {
-    font-family:  'SourceSansPro-Black.otf';
-    src: url(../headphones/fonts/SourceSansPro-Bold.otf);
+  font-family: "SourceSansPro-Black.otf";
+  src: url(../headphones/fonts/SourceSansPro-Bold.otf);
 }
 main {
   background-image: url("images/hero-image.png");
@@ -12,7 +12,7 @@ main {
   background-size: 100% 100%;
   height: 900px;
   width: 100%;
-  font-family: 'SourceSansPro-Black.otf';
+  font-family: "SourceSansPro-Black.otf";
 }
 header {
   padding: 16px 100px 16px 100px;
@@ -41,7 +41,7 @@ a {
   color: white;
 }
 .get-schooled {
-  font-size: 80px;
+  font-size: 90px;
 }
 .span-container {
   margin-bottom: 50px;
@@ -93,6 +93,11 @@ a {
   display: flex;
   align-items: center;
 }
+.shegee {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .sec3 {
   height: 350px;
   text-align: center;
@@ -130,13 +135,13 @@ a {
 .sec4-content-container {
   width: 60%;
 }
-.shege{
+.shege {
 }
 .sec4-content-title {
   margin-bottom: 20px;
 }
-.sec4-content-subtitle{
-    margin-bottom: 40px;
+.sec4-content-subtitle {
+  margin-bottom: 40px;
 }
 footer {
   position: relative;
