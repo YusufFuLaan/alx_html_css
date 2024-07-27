@@ -4,7 +4,16 @@
 }
 @font-face {
   font-family: "SourceSansPro-Black.otf";
+  font-family: "SourceSansPro-Light.otf";
+  font-family: "SourceSansPro-Bold.otf";
+  font-family: "SourceSansPro-Regular.otf";
+  
   src: url(../headphones/fonts/SourceSansPro-Bold.otf);
+  src: url(../headphones/fonts/SourceSansPro-Light.otf);
+  src: url(../headphones/fonts/SourceSansPro-Black.otf);
+  src: url(../headphones/fonts/SourceSansPro-Regular.otf);
+
+  
 }
 main {
   background-image: url("images/hero-image.png");
@@ -12,7 +21,6 @@ main {
   background-size: 100% 100%;
   height: 900px;
   width: 100%;
-  font-family: "SourceSansPro-Black.otf";
 }
 header {
   padding: 16px 100px 16px 100px;
@@ -42,12 +50,21 @@ a {
 }
 .get-schooled {
   font-size: 90px;
+  font-family: "SourceSansPro-Bold.otf";
 }
 .span-container {
   margin-bottom: 50px;
 }
 .joy {
   padding: 20px;
+}
+button{
+  font-size: 11px;
+  color: white;
+  background-color: #C271FF;
+  border: none;
+  border-radius: 20px;
+  padding: 14px;
 }
 .learn {
   text-align: center;
@@ -61,6 +78,11 @@ a {
   text-align: center;
   color: white;
 }
+.pros-position{
+  font-style: italic;
+  font-size: 12px;
+  font-family: "SourceSansPro-Light.otf";
+}
 .sec1 {
   display: flex;
   justify-content: space-evenly;
@@ -69,6 +91,17 @@ a {
   margin-bottom: 5%;
   background-color: rgb(191, 139, 208);
   color: white;
+}
+blockquote{
+line-height: 1.5;
+margin-bottom: 20px;
+}
+#name{
+  margin-bottom: 4px;
+}
+#w-presenter{
+  font-style: italic;
+  font-family: "SourceSansPro-Regular.otf";
 }
 .sec2-heading {
   text-align: center;
@@ -87,16 +120,27 @@ a {
   margin-bottom: 5%;
 }
 .tutorials-container {
-  width: 200px;
+  width: 250px;
 }
 .expe {
   display: flex;
   align-items: center;
+  margin: 16px auto;
+  color: #C271FF;
 }
-.shegee {
+.smiles{
+  font-family: "SourceSansPro-black.otf"; 
+  margin: 16px auto;
+}
+.smile-description{
+  font-family: "SourceSansPro-Regular.otf";
+  line-height: 1.5;
+}
+.rating-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #C271FF;
 }
 .sec3 {
   height: 350px;
