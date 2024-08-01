@@ -3,17 +3,20 @@
   padding: 0;
 }
 @font-face {
-  font-family: "SourceSansPro-Black.otf";
-  font-family: "SourceSansPro-Light.otf";
-  font-family: "SourceSansPro-Bold.otf";
   font-family: "SourceSansPro-Regular.otf";
-  
-  src: url(../headphones/fonts/SourceSansPro-Bold.otf);
-  src: url(../headphones/fonts/SourceSansPro-Light.otf);
-  src: url(../headphones/fonts/SourceSansPro-Black.otf);
   src: url(../headphones/fonts/SourceSansPro-Regular.otf);
-
-  
+}
+@font-face {
+  font-family: "SourceSansPro-Black.otf";
+  src: url(../headphones/fonts/SourceSansPro-Black.otf);
+}
+@font-face {
+  font-family: "SourceSansPro-Bold.otf";
+  src: url(../headphones/fonts/SourceSansPro-Bold.otf);
+}
+@font-face {
+  font-family: "SourceSansPro-Light.otf";
+  src: url(../headphones/fonts/SourceSansPro-Light.otf);
 }
 main {
   background-image: url("images/hero-image.png");
@@ -58,10 +61,10 @@ a {
 .joy {
   padding: 20px;
 }
-button{
+button {
   font-size: 11px;
   color: white;
-  background-color: #C271FF;
+  background-color: #c271ff;
   border: none;
   border-radius: 20px;
   padding: 14px;
@@ -78,7 +81,7 @@ button{
   text-align: center;
   color: white;
 }
-.pros-position{
+.pros-position {
   font-style: italic;
   font-size: 12px;
   font-family: "SourceSansPro-Light.otf";
@@ -92,14 +95,14 @@ button{
   background-color: rgb(191, 139, 208);
   color: white;
 }
-blockquote{
-line-height: 1.5;
-margin-bottom: 20px;
+blockquote {
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
-#name{
+#name {
   margin-bottom: 4px;
 }
-#w-presenter{
+#w-presenter {
   font-style: italic;
   font-family: "SourceSansPro-Regular.otf";
 }
@@ -126,13 +129,13 @@ margin-bottom: 20px;
   display: flex;
   align-items: center;
   margin: 16px auto;
-  color: #C271FF;
+  color: #c271ff;
 }
-.smiles{
-  font-family: "SourceSansPro-black.otf"; 
+.smiles {
+  font-family: "SourceSansPro-black.otf";
   margin: 16px auto;
 }
-.smile-description{
+.smile-description {
   font-family: "SourceSansPro-Regular.otf";
   line-height: 1.5;
 }
@@ -140,7 +143,7 @@ margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #C271FF;
+  color: #c271ff;
 }
 .sec3 {
   height: 350px;
